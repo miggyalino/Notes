@@ -1,0 +1,28 @@
+To set up NextJS App:
+- [npx create-next-app@latest ./]
+- use Tailwind CSS
+
+File Structure
+- layout.js is shared with all pages in your app (Examples are navbar and footer)
+
+
+Client Side vs Server Side Rendering
+- When you are using react functionalities such as states and hooks, use client side rendering
+- Otherwise, use server side (examples are data fetching data and accessing backend resources
+
+NextJS Routing System
+- Create folder to desired route
+- Add a new folder within the folder for a nested route
+- To show dynamic data use [folderId] then create page.js within that folder (use {folderId} to show Id for that page)
+- Create new layout.js file within a folder to create shared UI design for that route
+- Create loading.js to create shared preloader for that route
+- Create error.js for error handling
+
+Data Fetching
+- Server Side Rendering - App does not cache.
+- Static Site Generation - App caches. Good for pages with content that don't change that often
+- Incremental Static Generation - Best of both worlds (SSR and SSG), you can set specific data to be statically fetched and be revalidated by server side rendering by specifying a specific time
+
+- Build all back end functionalities in api folder
+
+

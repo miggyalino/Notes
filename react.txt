@@ -1,0 +1,8 @@
+components for different front end functionalities
+render data based on lists by using ternary operators and array functions
+use state is to edit data or variable based on a state
+use effect is for rendering components usually used while fetching api
+fetching data using api using query
+router dom to re route users to different links(usually used for navbars)
+use context to avoid prop drilling. Typically used for accessing data throughout different components
+
